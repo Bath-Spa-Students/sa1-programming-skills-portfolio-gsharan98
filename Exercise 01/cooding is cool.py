@@ -8,3 +8,4 @@ word2 = "is"
 word3 = "cool"
 c = word1 + " " + word2 + " " + word3
 print(c)
+

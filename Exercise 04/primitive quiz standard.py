@@ -4,7 +4,7 @@
 #Multiple Questions: Extend the program into a quiz that asks for the capitals of 10 European countries. Provide feedback for each question.
 
 
-#assigning to print"welcome and lets check your knowledge". 
+#assigning to print"welcome and lets check your knowledge".
 
 print("welcome and lets check your knowledge")
 
