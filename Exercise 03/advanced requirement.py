@@ -13,7 +13,7 @@ user_name = input(" Enter your full name: ").strip()            # .strip() funct
 
 user_hometown = input("Enter your hometown: ").strip()          # .strip() function  helps to get rid of extra spaces around  the input
 
-# askig the user to input their age in a loop ,it will keep looping until user input a valid answer.
+# asking the user to input their age in a loop ,it will keep looping until user input a valid answer.
 while True:
     try:
         # Converting the input to an integer
