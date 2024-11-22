@@ -23,12 +23,13 @@ while attempts < max_num_of_attempts:
     
     # Masking  the entire password with asterisks for privacy reasons
     hidden_password = '*' * len(user_passcode)
+    12
     
     # after every one incorrect answer increase the attempt
     #     attempts += 1
 
     # Checking if the inputed password matches the  user_passcode
-    if user_passcode == hidden_password:
+    if user_passcode == valid_passcode:
         # If the answer is correct ,it will end loop instantly
         print("passcode is correct ,welcome")
         break

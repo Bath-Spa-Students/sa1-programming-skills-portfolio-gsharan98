@@ -1,7 +1,7 @@
 # a dictionary linking month number with number of days present in that month
 the_days_in_month = {
     1: 31,   #here  January  is having 31 days
-    2: 28,   # here February is having 28 days (considering it as leap year)
+    2: 28,   # here February is having 28 days (considering it as  non leap year)
     3: 31,   # here March is having 31 days
     4: 30,   # here April is having 30 days
     5: 31,   # here May is having 31 days
