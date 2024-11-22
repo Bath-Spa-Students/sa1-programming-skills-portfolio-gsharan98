@@ -1,17 +1,14 @@
-# Exercise 6: Brute Force Attack - 30 Marks
 
+#optional requirementz
+#Modify the program to include a maximum of 5 password attempts. If the user enters the wrong password, inform them of the remaining attempts. If the maximum number of attempts is reached, inform the user that the authorities have been alerted.
 #Write a program that simulates a password entry system. The correct password is defined as 12345. The program should keep asking the user to enter the password until they provide the correct one.
 
-# Basic Requirements:
-#1. Define the correct password.
-#2. Use a while loop to repeatedly ask the user for the password until the correct one is entered.
-#3. Output an appropriate message when the correct password is entered.
 
 #assgning a correct passcode,defining correct password
 valid_passcode = "12345"
 
-# amount of attempts a user can do
-max_num_of_attempts = 3
+# amount of attempts done by user
+max_num_of_attempts = 5
 
 # keeping track of how much attempts has been made from starting
 attempts = 0
@@ -23,10 +20,9 @@ while attempts < max_num_of_attempts:
     
     # Masking  the entire password with asterisks for privacy reasons
     hidden_password = '*' * len(user_passcode)
-    12
     
     # after every one incorrect answer increase the attempt
-    #     attempts += 1
+    attempts += 1
 
     # Checking if the inputed password matches the  user_passcode
     if user_passcode == valid_passcode:
